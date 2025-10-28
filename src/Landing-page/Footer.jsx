@@ -1,4 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-has-content */
+/* eslint-disable jsx-a11y/anchor-has-content, jsx-a11y/anchor-is-valid */
 import logo from "./Media/Images/logo.png";
 import "./Footer.css"
 
