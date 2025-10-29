@@ -1,0 +1,31 @@
+/* Remove this — it overrides your class-based logic */
+/* a:hover {
+  color: inherit; 
+} */
+
+/* Default menu styling */
+.menu {
+  color: #666666;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover color for inactive menus */
+.menu:hover {
+  color: #387ed1;
+}
+
+/* Active/selected menu */
+.menu.Selected {
+  color: #387ed1;
+  font-weight: 600; /* optional, for emphasis */
+}
+
+/* Ensure links don't mess with text color */
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+}
